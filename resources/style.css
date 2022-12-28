@@ -1,0 +1,386 @@
+
+/*=====================*/
+       /*univesal*/
+/*===================*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: boder-box; 
+}
+/*==========Basic Setup=============-=*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+ul {
+    list-style: none;
+}
+a { text-decoration: none;
+}
+section {
+    padding: 8rem 0;
+    
+}
+ /*==========Reusable components Setup=============*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+  float: left;
+}
+
+.container {
+width: 114rem;
+    margin: auto;
+}
+.row {
+width: 100%;
+    float: left;
+}
+.btn {
+    display: inline-block;
+    background: #fbc301;
+    font-size: 2.1rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    border-radius: .5rem;
+    margin-top: 1.5rem;
+}
+
+/*============Header Section=============*/
+#header-section {
+    background: #fbc302;
+}
+nav {
+    background: #d9ab00;
+}
+.logo-part {
+    margin: 1rem 0;
+
+
+}
+.menu-part {
+    margin: 2rem 0;
+    text-align: left;
+}
+.menu-part ul li {
+    display: inline-block;
+    margin-left: 1rem;
+    padding-left: 1.5rem;
+    
+}
+.menu-part ul li a {
+    font-size: 2.9rem;
+    font-weight: 500;
+    color: #fff;   
+}
+.search-part form input {
+    width: 80%;
+    margin: 2rem 0;
+    padding: 1rem;
+    position: relative;
+    background: #fbc301;
+    color: #fff;
+    
+}
+
+.search-part form i {
+    position: absolute;
+    font-size: 2.1rem;
+    background: #00bdc9;
+    text-align: center;
+    width: 7rem;
+    margin: 2rem 0;
+    padding: 1rem 0 .5rem 0;
+}
+.search-part form input::placeholder{
+    color: #fff;
+
+}
+.hero-part {
+    margin-bottom: 7rem;
+}
+.hero-img {
+    margin-top: 16rem;
+}
+.hero-img img {
+    width:30rem;
+}
+.hero-content{
+    margin-top: 14rem;
+}
+.hero-content h1 {
+    color: #fff;
+    font-size: 6.5rem;   
+}
+.hero-content p {
+    font-size: 2.9rem;
+    color: #fff;
+    margin-top: 1rem;
+    
+}
+.hero-btn1 {
+    background: #00bdc9;
+    margin-right: 4rem;
+
+}
+.hero-btn2 {
+    border: 4px solid #fff;
+}
+.hero-btn2:hover,
+.hero-btn1:hover {
+   background: rgba(0,0,0,.50);
+    border: 1px solid rgba(51, 51, 51, 0.15);
+    
+}
+/*=======service-section And service-section two=========*/
+.aside-h2 {
+    margin-top: 3rem;
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;   
+}
+.aside-p {
+    font-size: 2.9rem;
+    margin-bottom: 1rem
+}
+.restangular {
+    width: 10rem;
+    height: 10rem;
+    background: rgba(251, 195, 1, 0.91);
+    margin-left: 95%;
+}
+.video-service{
+}
+.content-service_two {
+    text-align: end;
+}
+.aside_p_r{
+    font-size: 2.5rem;
+}
+.two-r {
+    margin-left: 0;
+}
+/*=========medical section And Offer Section=========*/
+.medical {
+    background: #fbc302;
+    text-align: center;
+}
+.medical-h2 {
+    font-size: 7.5rem;
+    text-transform: capitalize;
+    color: #fff;
+}
+.medical-p {
+    font-size: 3.3rem;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+}
+.box h3 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    color: #fff;
+}
+.box p {
+    font-size: 2.5rem;
+    color: #fff;
+}
+/*======Offer Section=========*/
+
+#offer{
+background:#fcc302;
+    text-align:center;
+
+}
+.box s, span{
+    font-size: 3.2rem;
+    padding-top: 2.5rem;
+    color: #fff;
+    margin-left: 1.5rem;
+}
+.box s {
+    margin-left: 0;
+}
+.box .btn {
+    padding-top: 0;
+    margin-top: 1rem;
+    background: #00bec9;
+    border-radius: 2rem;
+}
+/*=======Team Section========*/
+#team {
+    text-align: center;
+}
+#team h2{
+    color: #000;
+}
+#team p{
+    color: #000;
+}
+#team .box h3 {
+    color: #000;
+    font-size: 2.9rem;
+    padding-top: 1rem;
+}
+#team .social-link {
+    margin-top: 2rem;
+    
+}
+#team .social-link ul li {
+  display: inline-block;
+    margin: 1rem
+}
+#team .social-link ul li a i::before{
+    background: #daac00;
+    font-size: 3rem;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: .3s;
+}
+#team .social-link ul li a i:hover::before {
+    background: #000;
+    transform: rotate(360deg);
+
+}
+/*====Treatment===*/
+#treatment {
+    background-image: linear-gradient(rgba(252, 195, 2, 0.73),rgba(252, 195, 2, 0.81)),url(img/background-img.jpg);
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#treatment .icon {
+    margin-bottom: 4rem;
+
+
+}
+.treatment-content P {
+    font-size: 4.2rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+.treatment-content h4 {
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+/*==============post-section================*/
+#post-section {
+    background: #fff;
+}
+#post-section .medical-content h2{
+    color: #000;
+    text-align: center;
+    
+}
+#post-section .medical-content p{
+    color: #000;
+    text-align: center;
+   font-size: 3.3rem;   
+}
+.post-content{
+margin: 0 1rem;
+}
+.post-content h3 {
+    font-size: 2.5rem;
+    width: 90%;
+    padding: 2rem 0;
+}
+.post-content span {
+    font-size: 1.7rem;
+    color: #00bec9;
+    margin-left: -.3rem;
+}
+.post-content p {
+    font-size: 1.7rem;
+    padding: 2rem 0;
+
+}
+.post-content a {
+    font-size: 2.1rem;
+    color: #00bec9;
+}
+/*========footer=======*/
+footer {
+    padding: 8rem 0;
+    background: #343434;
+    color: #fff;
+}
+h6 {
+    font-size: 3.8rem;
+    margin-bottom: 2rem;
+}
+.about ul li {
+
+}
+.about ul li a, .services ul li a {
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 1.5;
+}
+.title-here {
+    text-align: end;
+}
+.title-here p {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+.title-here form {
+    text-align: left;
+    border: .1rem solid #00bec9;
+}
+.title-here form input[type="text"] {
+    background: #daac00;
+    padding: 1rem 0;
+    width:90%;
+    position: relative;
+}
+.title-here form i {
+    position: absolute;
+    width:4.8%; 
+    height: 3.5rem;
+    background: #00bec9;
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.social-link ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+.social-link ul li:last-child{
+    margin: 0;
+ }
+.social-link ul li a i::before {
+    background: #fff;
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    color: black;
+
+
+}
